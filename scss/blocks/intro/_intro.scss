@@ -1,0 +1,33 @@
+.intro__container {
+  padding: 117px 10px;
+  background-image: url('../../../assets/img/intro-bg.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro__inner {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: 86px;
+  text-align: left;
+}
+
+.intro__title {
+  margin-bottom: 32px;
+  color: #fefcf7;
+  font-family: "Fraunces";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px; /* 100% */
+}
+
+.intro__subtitle {
+  max-width: 420px;
+}
+
+.intro__link {
+  margin-top: 56px;
+  display: inline-block;
+}

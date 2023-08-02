@@ -1,0 +1,24 @@
+.header {
+  &__container {
+    @include d-flex;
+    padding: 43px 10px;
+  }
+
+  &__nav {
+    &-list {
+      @include d-flex;
+      column-gap: 33px;
+    }
+  }
+
+  &__list-item--link {
+    color: #83888f;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+  }
+}
